@@ -30,7 +30,7 @@ const Home = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '3rem', display: 'inline-block', fontFamily:'semibold', color:'#5E3BEE' }}
+      style={{ fontSize: '3rem', display: 'inline-block', fontFamily:'semibold', color:'#DFBC04' }}
       repeat={Infinity}
     />        
      <p className='text-body text-2xl leading-9 mb-8'>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. </p>

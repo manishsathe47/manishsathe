@@ -34,7 +34,7 @@ const Navbar = () =>{
                 {/* menu items for large devices */}
                 <div className="lg:flex items-center gap-3 hidden text-body text-lg">
                     <a href="./Home" className="block py-2 px-4 cursor-pointer text-primary hover:text-gray-400 ">Home</a>
-                    <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Skills</a>
+                    <a href="/Skills" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Skills</a>
                     <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">About Me</a>
                     <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Portfolio</a>
                     <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Testimonials</a>
@@ -54,7 +54,7 @@ const Navbar = () =>{
             {
                 isMenuOpen && <div className="mt-4 p-4 bg-body rounded-lg text-white">
                         <a href="/Home" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Home</a>
-                        <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Skills</a>
+                        <a href="/Skills" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Skills</a>
                         <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">About Me</a>
                         <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Portfolio</a>
                         <a href="/" className="block py-2 px-4 cursor-pointer  hover:text-gray-400 ">Testimonials</a>
